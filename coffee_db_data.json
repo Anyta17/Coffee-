@@ -1,0 +1,57 @@
+[
+  {
+    "model": "coffee_app.coffee",
+    "pk": 1,
+    "fields": {
+      "title": "Caramel Latte",
+      "coffee": "Espresso",
+      "syrup": "Caramel",
+      "amount_of_milk": 250,
+      "description": "This delightful beverage strikes a harmonious balance between bold coffee flavors and sweet, buttery caramel, creating a comforting and decadent treat for coffee enthusiasts. A Hot Caramel Latte is a delightful fusion of smooth, velvety steamed milk, bold espresso, and luscious caramel syrup."
+    }
+  },
+  {
+    "model": "coffee_app.coffee",
+    "pk": 2,
+    "fields": {
+      "title": "Flat White",
+      "coffee": "2 shots of Espresso",
+      "syrup": "",
+      "amount_of_milk": 190,
+      "description": "A flat white is a blend of micro-foamed milk poured over a single or double shot of espresso. This microfoam is steamed milk infused with air, to create a smooth and velvety texture and creamy taste. Precise pouring and steaming of the microfoam is essential in making a flat white."
+    }
+  },
+  {
+    "model": "coffee_app.coffee",
+    "pk": 3,
+    "fields": {
+      "title": "Coffee with almond milk",
+      "coffee": "Espresso",
+      "syrup": "Almond (optional)",
+      "amount_of_milk": 170,
+      "description": "Cold almond milk can curdle in hot coffee. But if you heat it and froth it before adding, it makes a tasty latte. The flavor is very nutty and it won't be nearly as creamy as a traditional latte: but it's delicious in its own way."
+    }
+  },
+  {
+    "model": "coffee_app.coffee",
+    "pk": 4,
+    "fields": {
+      "title": "Cafe-au-lait with maple syrup",
+      "coffee": "Espresso",
+      "syrup": "Maple",
+      "amount_of_milk": 140,
+      "description": "The Café au Lait is made using brewed coffee and steamed milk, in a typical ratio of one part coffee to one part steamed milk with no froth or foam on top (sometimes certain coffee shops will add it though). The coffee base is usually made with a French press or a drip and the milk must always be steamed."
+    }
+  },
+  {
+    "model": "coffee_app.coffee",
+    "pk": 5,
+    "fields": {
+      "title": "White chocolate mocha",
+      "coffee": "Espresso",
+      "syrup": "White chocolate",
+      "amount_of_milk": 120,
+      "description": "A smooth blend of white chocolate, steamed milk and espresso, generously topped with whipped cream, our white chocolate mocha is a tall glass of creamy deliciousness."
+    }
+  }
+]
