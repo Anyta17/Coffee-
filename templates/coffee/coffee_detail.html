@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block content %}
+ <h1>
+    Name: {{ coffee.title }}
+  </h1>
+  <h2>Recipe</h2>
+  <hr>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        {% if coffee.id == 1 %}
+          <img src="https://i.pinimg.com/564x/d3/fb/26/d3fb267739a165e0307c1d8aae93dc17.jpg"
+               alt="{{ coffee.title }}" width="350" height="500">
+        {% elif coffee.id == 2 %}
+          <img src="https://i.pinimg.com/564x/36/37/dd/3637dd93642dfea21c1ce8fe15dab430.jpg"
+               alt="{{ coffee.title }}" width="350" height="500">
+        {% elif coffee.id == 3 %}
+          <img src="https://i.pinimg.com/564x/19/ab/29/19ab2995702d53d304804e4cefae8ad9.jpg"
+               alt="{{ coffee.title }}" width="350" height="500">
+        {% elif coffee.id == 4 %}
+          <img src="https://i.pinimg.com/564x/ae/8d/55/ae8d559316a6e36afeee1a73c81c0bba.jpg"
+               alt="{{ coffee.title }}" width="350" height="500">
+        {% elif coffee.id == 5 %}
+          <img src="https://i.pinimg.com/564x/8a/72/4c/8a724ce6bf760de9faed2911ff532a4c.jpg"
+               alt="{{ coffee.title }}" width="350" height="500">
+        {% endif %}
+      </div>
+      <div class="col-sm-4">
+        <ul>
+          <li>A portion of coffee: {{ coffee.coffee }}</li>
+          <li>Syrup: {{ coffee.syrup  }}</li>
+          <li>Amount of milk: {{ coffee.amount_of_milk }}</li>
+          <li>Description: {{ coffee.description }}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+{% endblock %}

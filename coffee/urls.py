@@ -7,4 +7,4 @@ urlpatterns = [
     path("coffee/<int:pk>/", coffee_detail, name="coffee-detail"),
 ]
 
-app_name = "coffee_app"
+app_name = "coffee"

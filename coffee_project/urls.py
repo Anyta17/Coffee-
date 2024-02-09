@@ -22,7 +22,7 @@ from django.conf.urls.static import static
 
 urlpatterns = i18n_patterns(
     path("admin/", admin.site.urls),
-    path("", include("coffee_app.urls", namespace="coffee_app")),
+    path("", include("coffee.urls", namespace="coffee")),
 ) + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 
 urlpatterns += [

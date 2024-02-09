@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>
+    Coffee recipes
+  </h1>
+  {% for coffee in coffee_list %}
+    <a href="{% url 'coffee_app:coffee-detail' pk=coffee.pk %}">{{ coffee.title }}</a>
+    <br>
+  {% endfor %}
+{% endblock %}
