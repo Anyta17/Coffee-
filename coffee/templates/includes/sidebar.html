@@ -1,0 +1,9 @@
+<ul class="sidebar-nav list-group">
+  <a href="{% url 'coffee:switch-language' language_code='en' %}">Switch to English</a>
+  <a href="{% url 'coffee:switch-language' language_code='uk' %}">Switch to Ukrainian</a>
+
+  <br>
+
+  <li class="list-group-item"><a href="{% url 'coffee:index' %}">Home</a></li>
+  <li class="list-group-item"><a href="{% url 'coffee:coffee-list' %}">Recipes</a></li>
+</ul>

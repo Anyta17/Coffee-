@@ -1,6 +1,6 @@
 [
   {
-    "model": "coffee_app.coffee",
+    "model": "coffee.coffee",
     "pk": 1,
     "fields": {
       "title": "Caramel Latte",
@@ -11,7 +11,7 @@
     }
   },
   {
-    "model": "coffee_app.coffee",
+    "model": "coffee.coffee",
     "pk": 2,
     "fields": {
       "title": "Flat White",
@@ -22,7 +22,7 @@
     }
   },
   {
-    "model": "coffee_app.coffee",
+    "model": "coffee.coffee",
     "pk": 3,
     "fields": {
       "title": "Coffee with almond milk",
@@ -33,7 +33,7 @@
     }
   },
   {
-    "model": "coffee_app.coffee",
+    "model": "coffee.coffee",
     "pk": 4,
     "fields": {
       "title": "Cafe-au-lait with maple syrup",
@@ -44,7 +44,7 @@
     }
   },
   {
-    "model": "coffee_app.coffee",
+    "model": "coffee.coffee",
     "pk": 5,
     "fields": {
       "title": "White chocolate mocha",
