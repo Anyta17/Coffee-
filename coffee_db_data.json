@@ -53,5 +53,16 @@
       "amount_of_milk": 120,
       "description": "A smooth blend of white chocolate, steamed milk and espresso, generously topped with whipped cream, our white chocolate mocha is a tall glass of creamy deliciousness."
     }
+  },
+  {
+    "model": "coffee.coffee",
+    "pk": 6,
+    "fields": {
+      "title": "Hazelnut flavored latte",
+      "coffee": "Espresso",
+      "syrup": "Hazelnut",
+      "amount_of_milk": 160,
+      "description": "This hazelnut latte is sweet and nutty with warm espresso, steamed milk and a dab of whipped cream for the perfect morning or afternoon treat. It's easy to make at home, gluten-free and can easily be made vegan."
+    }
   }
 ]

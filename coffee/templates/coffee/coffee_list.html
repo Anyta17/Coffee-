@@ -1,11 +1,17 @@
 {% extends "base.html" %}
 
 {% block content %}
+<div style="padding-left: 100px; padding-right: 100px">
   <h1>
     Coffee recipes
   </h1>
   {% for coffee in coffee_list %}
-    <a href="{% url 'coffee:coffee-detail' pk=coffee.pk %}">{{ coffee.title }}</a>
-    <br>
+    <a  href="{% url 'coffee:coffee-detail' pk=coffee.pk %}">{{ coffee.title }}:</a>
+    {{ coffee.description }}
+    <br><br>
   {% endfor %}
+   <div style="padding-top: 0%">
+    {% include "includes/pagination.html" %}
+  </div>
+</div>
 {% endblock %}

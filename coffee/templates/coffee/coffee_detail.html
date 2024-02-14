@@ -1,10 +1,12 @@
 {% extends "base.html" %}
 
 {% block content %}
+<div style="padding-left: 100px; padding-bottom: 50px">
  <h1>
     Name: {{ coffee.title }}
   </h1>
   <h2>Recipe</h2>
+<br>
   <hr>
   <div class="container">
     <div class="row">
@@ -24,6 +26,9 @@
         {% elif coffee.id == 5 %}
           <img src="https://i.pinimg.com/564x/8a/72/4c/8a724ce6bf760de9faed2911ff532a4c.jpg"
                alt="{{ coffee.title }}" width="350" height="500">
+        {% elif coffee.id == 6 %}
+          <img src="https://i.pinimg.com/564x/c5/c1/37/c5c1376a85bdf8a065d6c02fb85e9287.jpg"
+               alt="{{ coffee.title }}" width="350" height="500">
         {% endif %}
       </div>
       <div class="col-sm-4">
@@ -36,4 +41,5 @@
       </div>
     </div>
   </div>
+</div>
 {% endblock %}
